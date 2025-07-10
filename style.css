@@ -108,8 +108,8 @@
 
 /*main code start*/
 main{
-	max-width:1140px;
-	margin:auto;
+	max-width:850px;
+	margin:0px auto;
 }
 
 
@@ -117,7 +117,9 @@ main{
 
 .about{
 	border-radius:10px;
-	border:2px solid red;
+	padding:100px 100px;
+	text-align:center;
+	
 }
 
 .section-title{
@@ -130,6 +132,52 @@ main{
 	font-size:18px;
 	color:#757575;
 }
+
+.about-items{
+	display:flex;
+	justify-content:space-around;
+}
+
+.item-description{
+	font-weight:600;
+}
+
+.about-border{
+	border:1px solid black;
+	background-color:white
+}
+
+/* main */
+
+main section{
+	margin-top:130px;
+	margin-bottom:130px;
+}
+
+/* what i do section code start  */
+
+.text-center{
+	text-align:center;
+}
+
+
+.skill-container{
+	display:flex;
+	gap:24px;
+}
+
+.skill-content{
+	padding:30px;
+	box-shadow: 0ex 6px 50px 0px rgba(0, 0, 0, 0.06); 
+	border-radius:5px;
+}
+
+
+.skill .section-description{
+	margin:35px 0px;
+}
+
+
 
 
 
